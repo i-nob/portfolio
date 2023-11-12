@@ -205,6 +205,7 @@ img.svg{
 .twitter_icon_mobile {
 	position: absolute;
 	left: 120px;
+	color: initial;
 }
 
 .arlo_tm_leftpart_wrap .twitter_icon_left {

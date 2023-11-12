@@ -211,6 +211,7 @@ img.svg{
 		position: absolute;
 		top: 175px;
 		left: 130px;
+		color: initial;
 }
 
 .arlo_tm_leftpart_wrap .arlo_tm_resize{

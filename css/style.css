@@ -215,6 +215,10 @@ img.svg{
 		color: initial;
 }
 
+.arlo_tm_leftpart_wrap .twitter_icon_left:hover {
+	color: #0a58ca;
+}
+
 .arlo_tm_leftpart_wrap .arlo_tm_resize{
 	position: absolute;
 	right: 0px;

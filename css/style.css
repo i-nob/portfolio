@@ -69,19 +69,7 @@ img.svg{
 ::placeholder { /* Most modern browsers support this now. */
    color: #333;
 }
-.arlo_tm_preloader{
-  position: fixed;
-  background-color: #fff;
-  z-index: 9999999;
-  height: 100%;
-  width: 100%;
-	
-  -webkit-transition: .2s all ease;
-  -o-transition: .2s all ease;
-  transition: .2s all ease;
-  -webkit-transition-delay: .5s;
-  -o-transition-delay: .5s;
-  transition-delay: .5s; }  
+
 .arlo_tm_preloader .spinner_wrap{
 	position: absolute;
 	top: 50%;

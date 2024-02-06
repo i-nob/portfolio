@@ -1286,19 +1286,46 @@ img.svg{
 	margin-bottom: 69px;
 }
 .arlo_tm_contact_wrap .subtitle p{color: #333;}
-.arlo_tm_conatct_wrap .google_form_wrapper {
-		position: relative;
-		width: 100%;
-		height: 820px;
-		overflow-y: auto;
-	}
-	
-.arlo_tm_conatct_wrap .google_form_wrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
+.arlo_tm_contact_wrap .main_input_wrap{
+	margin-bottom: 75px;
+	position: relative;
+	top: -24px;
+}
+.arlo_tm_contact_wrap .main_input_wrap,
+.arlo_tm_contact_wrap .main_input_wrap .wrap{
 	width: 100%;
-	height: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.arlo_tm_contact_wrap .main_input_wrap .wrap{margin-bottom: 20px;}
+.arlo_tm_contact_wrap .main_input_wrap .wrap input{
+	width: 100%;
+	text-align: left;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(10,4,37,1);
+	color: #333;
+	padding-left: 0px !important;
+}
+.arlo_tm_contact_wrap .main_input_wrap .wrap input:focus{
+	outline: none;
+}
+.arlo_tm_contact_wrap .main_input_wrap .wrap textarea{
+	width: 100%;
+	height: 80px;
+	text-align: left;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(10,4,37,1);
+	color: #333;
+	padding-left: 0px !important;
+}
+.arlo_tm_contact_wrap .main_input_wrap .wrap textarea:focus{
+	outline: none;
 }
 .arlo_tm_contact_wrap .arlo_tm_button button{
     color: #000;

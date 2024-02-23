@@ -1,512 +1,530 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="フリーランスWebエンジニア。WordPressでのWebページ構築・カスタマイズ｜WooCommerce・Shopify等でのECサイト構築｜Astro・React・FirebaseでのWebアプリ開発などを承っております。">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="フリーランスのWebエンジニア。HTML・CSS・JavaScript・PHPコーディングやWordPressでのWebページ制作、ShopifyなどでのECサイト構築、ノーコードサービスでの各種構築をリーズナブルな価格で受け付けております。">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>i-nob create｜フリーランスWebエンジニア</title>
 
-	<title>i-nob create｜フリーランスWebエンジニア</title>
+<!-- STYLES -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
-	<!-- STYLES -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/lightbox.min.css">
-	<link rel="stylesheet" type="text/css" href="css/plugins.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" rel="stylesheet">
-	<!-- /STYLES -->
-	<link rel="icon" type="image/x-icon" href="./favicon.ico">
-	<script src="https://sdk.form.run/js/v2/formrun.js"></script>
-	<meta name="google-site-verification" content="hSfzoewylKGayjU5TsepmlnINPN5lAfrkWpnsG3CSmw" />
+<link rel="stylesheet" type="text/css" href="css/plugins.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/custom.css" />
+<link href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" rel="stylesheet">
+<!-- /STYLES -->
+<link rel="icon" type="image/x-icon" href="./favicon.ico">
+<meta name="google-site-verification" content="hSfzoewylKGayjU5TsepmlnINPN5lAfrkWpnsG3CSmw" />
 </head>
 
-<body>
-
+<body> 
+	
+	<!-- PRELOADER -->
+	<div id="preloader">
+		<div class="loader_line"></div>
+	</div>
+	<!-- /PRELOADER -->
+	
 	<!-- WRAPPER ALL -->
-	<div class="arlo_tm_wrapper_all">
-		<!-- PRELOADER -->
-		<div class="arlo_tm_preloader">
-			<div class="spinner_wrap">
-				<div class="spinner"></div>
-			</div>
-		</div>
-		<!-- /PRELOADER -->
+	<div class="arlo_tm_all_wrap" data-magic-cursor="show"> 
+				
 		<!-- MOBILE MENU -->
-		<div class="arlo_tm_mobile_header_wrap">
-			<div class="main_wrap">
-				<div class="logo">
-					<img src="img/logo/mobile-logo.png" alt="モバイル用ロゴ" />
-				</div>
-				<a class="twitter_icon_mobile" href="https://twitter.com/inobcreate" target="_blank" rel="noopener noreferrer"><fa-3x
-						class="fa-brands fa-x-twitter fa-3x"></i></a>
-				<div class="arlo_tm_trigger">
-					<div class="hamburger hamburger--collapse-r">
-						<div class="hamburger-box">
-							<div class="hamburger-inner"></div>
+		<div class="arlo_tm_mobile_menu">
+			<div class="mobile_menu_inner">
+				<div class="mobile_in">
+					<div class="logo" data-type="image"> <!-- You can set your own avatar or image or text as a logo. data-type values are: "avatar", "image", "text" -->
+						<div class="image"><img src="img/logo/mobile-logo.png" alt="モバイル用ロゴ" /></div>
+						<div class="text"><h3>i-nob&nbsp;create</h3></div>
+					</div>
+					<div class="trigger">
+						<div class="hamburger hamburger--slider">
+							<div class="hamburger-box">
+								<div class="hamburger-inner"></div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="arlo_tm_mobile_menu_wrap">
-				<div class="mob_menu">
+			<div class="dropdown">
+				<div class="dropdown_inner">
 					<ul class="anchor_nav">
 						<li><a href="#home">ホーム</a></li>
 						<li><a href="#about">自己紹介</a></li>
 						<li><a href="#skills">スキル紹介</a></li>
-						<li><a href="#services">サービス紹介</a></li>
-						<li><a href="#portfolio">ポートフォリオ</a></li>
+						<li><a href="#service">サービス紹介</a></li>
+						<li><a href="#faq">よくある質問</a></li>
 						<li><a href="#contact">お問い合わせ</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<!-- /MOBILE MENU -->
-		<!-- CONTENT -->
-		<div class="arlo_tm_content">
-			<!-- LEFTPART -->
-			<div class="arlo_tm_leftpart_wrap">
-				<div class="leftpart_inner">
-					<div class="logo_wrap">
-						<img src="img/logo/top-logo_2.png" alt="メニューロゴ" />
-					</div>
-					<a class="twitter_icon_left" href="https://twitter.com/inobcreate" target="_blank" rel="noopener noreferrer"><i
-							class="fa-brands fa-x-twitter fa-3x"></i></a>
-					<div class="menu_list_wrap">
-						<ul class="anchor_nav">
-							<li><a href="#home">ホーム</a></li>
-							<li><a href="#about">自己紹介</a></li>
-							<li><a href="#skills">スキル紹介</a></li>
-							<li><a href="#services">サービス紹介</a></li>
-							<li><a href="#portfolio">ポートフォリオ</a></li>
-							<li><a href="#contact">お問い合わせ</a></li>
-						</ul>
-					</div>
-					<a class="arlo_tm_resize"><i class="xcon-angle-left"></i></a>
-				</div>
+
+		<!-- SIDEBAR -->
+		<div class="arlo_tm_sidebar">
+			<div class="logo" data-type="image"> <!-- You can set your own avatar or image or text as a logo. data-type values are: "avatar", "image", "text" -->
+				<div class="avatar" data-img-url="img/about/2.jpg"></div>
+				<div class="image"><img src="img/logo/top-logo_2.png" alt="メニューロゴ" /></div>
+				<div class="text"><h3>i-nob&nbsp;create</h3></div>
 			</div>
-			<!-- /LEFTPART -->
-			<!-- RIGHTPART -->
-			<div class="arlo_tm_rightpart">
-				<div class="rightpart_inner">
-					<div class="arlo_tm_section" id="home">
-						<div class="arlo_tm_hero_header_wrap">
-							<div class="arlo_tm_universal_box_wrap">
-								<div class="bg_wrap">
-									<div class="overlay_image hero jarallax" data-speed="0.1"></div>
-									<div class="overlay_color hero"></div>
-								</div>
-								<div class="content hero">
-									<div class="inner_content">
-										<div class="image_wrap">
-											<img src="img/logo/main-logo.png" alt="メインロゴ" />
-											<div class="main" data-img-url="img/logo/main-logo.jpg"></div>
-										</div>
-										<div class="name_holder">
-											<h3>i-nob create</h3>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- ABOUT -->
-					<div class="arlo_tm_section relative" id="about">
-						<div class="arlo_tm_about_wrapper_all">
-							<div class="container">
-								<div class="arlo_tm_title_holder">
-									<h3>代表紹介</h3>
-									<span>Main informations about me</span>
-								</div>
-								<div class="arlo_tm_about_wrap">
-									<div class="author_wrap">
-										<div class="leftbox">
-											<div class="about_image_wrap parallax" data-relative-input="true">
-												<div class="image layer" data-depth="0.1">
-													<img src="img/about/about_me.jpg" alt="自己紹介用画像" />
-													<div class="inner" data-img-url="img/about/about_me.jpg"></div>
-												</div>
-											</div>
-										</div>
-										<div class="rightbox">
-											<div class="arlo_tm_mini_title_holder">
-												<h4>「クラフトマンシップを持った、クリエイターに」</h4>
-											</div>
-											<div class="definition">
-												<p>フリーランスWebエンジニアとして活動している、i-nob&nbsp;create代表のi-nobです。<br>
-													HTML・CSS・JavaScript・PHPコーディング、WordPressでのWebページ制作・カスタマイズやShopifyなど各種ECサイト構築、ノーコードサービスでのWebアプリ開発を行っております。<br>
-													Webページ制作営業職の経験も活かしつつ、クラフトマンシップ【職人の心】を忘れずにお客様のご要望にお応えして参ります。</p>
-											</div>
-											<div class="about_short_contact_wrap">
-												<ul>
-													<li>
-														<span><label>所在地:</label>福島県</span>
-													</li>
-													<li>
-														<span><label>X(旧Twitter):</label> <a href="https://twitter.com/inobcreate" target="_blank"
-																rel="noopener noreferrer">&#64;inobcreate</a></span>
-													</li>
-                          <li>
-                            <label>Chatwork:</label><span><a href="https://www.chatwork.com/i-nob" target="_blank" rel="noopener noreferrer">i-nob</a></span>
-                          </li>  
-												</ul>
-											</div>
-											<div class="buttons_wrap">
-												<ul>
-													<li class="anchor">
-														<a href="#contact">お問い合わせへ</a>
-													</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- /ABOUT -->
-					<!-- SKILLS -->
-					<div class="arlo_tm_section" id="skills">
-						<div class="arlo_tm_skills_wrap">
-							<div class="container">
-								<div class="arlo_tm_title_holder">
-									<h3>スキル紹介</h3>
-									<span>My skills are here</span>
-								</div>
-							</div>
-							<div class="row container">
-								<div class="inner col-md-4 col-sm-12">
-									<div class="title_skills">
-										<h3>HTML&nbsp;&&nbsp;CSS</h3>
-									</div>
-									<div class="text">
-										<p>Webページ制作実績多数</p>
-										<p>Bootstrap・TailwindCSS・SCSS対応可</p>
-									</div>
-								</div>
-								<div class="inner col-md-4 col-sm-12">
-									<div class="title_skills">
-										<h3>JavaScript</h3>
-									</div>
-									<div class="text">
-										<p>Webページ・ECサイトへの機能実装実績多数</p>
-										<p>jQuery・Alpine.js対応可</p>
-									</div>
-								</div>
-								<div class="inner col-md-4 col-sm-12">
-									<div class="title_skills">
-										<h3>PHP</h3>
-									</div>
-									<div class="text">
-										<p>WordPressカスタマイズを含むPHPページ構築</p>
-										<p>会員ページ機能実装等</p>
-									</div>
-								</div>
-								<div class="inner col-md-4 col-sm-12">
-									<div class="title_skills">
-										<h3>WordPress構築</h3>
-									</div>
-									<div class="text">
-										<p>WordPressのWebページ構築 </p>
-										<p>ECサイト化・多言語化可能
-                    </p>
-									</div>
-								</div>
-								<div class="inner col-md-4 col-sm-12">
-									<div class="title_skills">
-										<h3>ECサイト構築</h3>
-									</div>
-									<div class="text">
-										<p>人気のShopifyをはじめ、Yahoo・楽天・STORES・MakeShop・WooCommerce・Welcart等の構築可能</p>
-										<p>Shopifyはコード編集カスタマイズも可能</p>
-									</div>
-								</div>
-								<div class="inner col-md-4 col-sm-12">
-									<div class="title_skills">
-										<h3>ノーコードWeb制作</h3>
-									</div>
-									<div class="text">
-										<p>STUDIO・WixでのノーコードWeb制作・Webアプリ開発が可能
-										</p>
-										<p>お問い合わせフォーム実装やCMS利用対応も可能
-											</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- /SKILLS -->
-					<!-- SERVICES -->
-					<div class="arlo_tm_section" id="services">
-						<div class="arlo_tm_services_wrap">
-							<div class="container">
-								<div class="arlo_tm_title_holder">
-									<h3>サービス紹介</h3>
-									<span>Meet our amazing services</span>
-								</div>
-							</div>
-							<div class="row container">
-								<div class="inner col-md-4 col-sm-12">
-									<div class="icon">
-										<img class="svg" src="img/svg/new-tab.svg" alt="webページアイコン" />
-									</div>
-									<div class="title_service">
-										<h3>Webページ制作</h3>
-									</div>
-									<div class="text">
-										<div class="work-detail">
-											<p>HTML・CSS・JavaScript・PHPでのWebページ制作を致します。 
-                        LPや会社・店舗用ページやイベント告知ページの制作経験があります。</p>
-										</div>
-										<div class="work-info">
-											<p class="imp_info">納期目安:2-4週間程度</p>
-											<p>※文章・画像制作は別途費用</p>
-										</div>
-									</div>
-								</div>
-								<div class="inner col-md-4 col-sm-12">
-									<div class="icon">
-										<img class="svg" src="img/svg/new-tab.svg" alt="webページアイコン" />
-									</div>
-									<div class="title_service">
-										<h3>WordPress構築</h3>
-									</div>
-									<div class="text">
-										<div class="work-detail">
-											<p>ECサイト化・求人サイト等の検索機能実装・多言語化・会員機能等の幅広いカスタマイズに対応できます。 
-                        実績多数ありますので、お気軽にご相談下さい。</p>
-										</div>
-										<div class="work-info">
-											<p class="imp_info">納期目安:2-4週間程度</p>
-											<p>※文章・画像制作は別途費用</p>
-										</div>
-									</div>
-								</div>
-								<div class="inner col-md-4 col-sm-12">
-									<div class="icon">
-										<img class="svg" src="img/svg/new-tab.svg" alt="webページアイコン" />
-									</div>
-									<div class="title_service">
-										<h3>Shopify構築</h3>
-									</div>
-									<div class="text">
-										<div class="work-detail">
-											<p>Amazonキラーとも呼ばれて人気の【Shopify】で通販サイトを構築致します。<br>
-												アプリ導入での多言語化や送料詳細設定、コード編集でのカスタマイズも可能です。</p>
-										</div>
-										<div class="work-info">
-											<p class="imp_info">納期目安:作業に応じて変動</p>
-											<p>※文章・画像制作・商品登録代行は別途費用</p>
-										</div>
-									</div>
-								</div>
-								<div class="inner col-md-4 col-sm-12">
-									<div class="icon">
-										<img class="svg" src="img/svg/new-tab.svg" alt="webページアイコン" />
-									</div>
-									<div class="title_service">
-										<h3>その他EC構築</h3>
-									</div>
-									<div class="text">
-										<div class="work-detail">
-											<p>Yahoo・楽天・STORES・MakeShop・WooCommerce・WelcartでもEC構築致します。<br>
-                        商品登録代行・ECサービスのお引越し対応可能です。</p>
-										</div>
-										<div class="work-info">
-											<p class="imp_info">納期目安:作業に応じて変動</p>
-											<p>※文章・画像制作・商品登録代行は別途費用</p>
-										</div>
-									</div>
-								</div>
-								<div class="inner col-md-4 col-sm-12">
-									<div class="icon">
-										<img class="svg" src="img/svg/new-tab.svg" alt="webページアイコン" />
-									</div>
-									<div class="title_service">
-										<h3>ノーコードWeb制作</h3>
-									</div>
-									<div class="text">
-										<div class="work-detail">
-											<p>STUDIO・WixでのノーコードでWebページ制作が可能です。<br>
-												各サービスで独自ドメイン接続対応可能です。<br>
-											STUDIOでは、簡易モーションやお問い合わせフォーム付きページが作成可能で、有料プラン加入でCMS利用もできます。</p>
-											<p>Wixではデータベースを用いたWebアプリの構築経験があります。</p>
-										</div>
-										<div class="work-info">
-											<p class="imp_info">納期目安:作業に応じて変動</p>
-											<p>※文章・画像制作は別途費用</p>
-										</div>
-									</div>
-								</div>
-								<div class="inner col-md-4 col-sm-12">
-									<div class="icon">
-										<img class="svg" src="img/svg/new-tab.svg" alt="webページアイコン" />
-									</div>
-									<div class="title_service">
-										<h3>Webアプリ開発</h3>
-									</div>
-									<div class="text">
-										<div class="work-detail">
-											<p>開発サービス【bubble】を用いてWebアプリを制作致します。<br>
-												業務用・新しいビジネスにご活用頂けます。</p>
-										</div>
-										<div class="work-info">
-											<p class="imp_info">納期目安:要相談</p>
-											<p>※文章・画像制作は別途費用</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="container">
-								※作業費用は無料でお見積り致しますので、お気軽にお問い合わせください
-							</div>
-						</div>
-					</div>
-					<!-- /SERVICES -->
-					<!-- PORTFOLIO -->
-					<div class="arlo_tm_section relative" id="portfolio">
-						<div class="arlo_tm_portfolio_wrapper_all">
-							<!-- PORTFOLIO FILTER -->
-							<div class="arlo_tm_second_portfolio">
-								<div class="container">
-									<div class="arlo_tm_portfolio_wrap">
-										<div class="arlo_tm_title_holder portfolio">
-											<h3>ポートフォリオ</h3>
-											<span>Check out our latest creative works</span>
-										</div>
-										<p class="caution">※下記のほかにも実績多数ありますので、ご覧になりたい方はご一報ください</p>
-										<div class="arlo_tm_portfolio_titles"></div>
-										<ul class="arlo_tm_portfolio_filter">
-											<li><a href="#" class="current" data-filter="*">ALL</a></li>
-											<li><a href="#" data-filter=".lp">LP</a></li>
-											<li><a href="#" data-filter=".wp">WP</a></li>
-											<li><a href="#" data-filter=".ec">EC</a></li>
-										</ul>
-										<ul class="arlo_tm_portfolio_list gallery_zoom">
-											<li class="lp">
-												<div class="entry arlo_tm_portfolio_animation_wrap" data-title="片付け戦隊ジェイシーアイ様&nbsp;不用品回収サービスLP"
-													data-category="lp">
-													<a href="https://www.jciokatazuke.com/" target="_blank" rel="noopener noreferrer">
-														<img src="img/portfolio/lp_1.jpg" alt="LP制作事例1" />
-													</a>
-												</div>
-											</li>
-											<li class="wp">
-												<div class="entry arlo_tm_portfolio_animation_wrap" data-title="株式会社evoke様&nbsp;WordPress短納期制作"
-													data-category="wp">
-													<a href="https://www.evoke-jp.com/" target="_blank" rel="noopener noreferrer">
-														<img src="img/portfolio/wp_1.jpg" alt="Webページ制作事例1:WordPressコーポレートサイト" />
-													</a>
-												</div>
-											</li>
-											<li class="ec">
-												<div class="entry arlo_tm_portfolio_animation_wrap" data-title="株式会社P&C様&nbsp;Yahoo:EC構築"
-													data-category="ec">
-													<a href="https://shopping.geocities.jp/ginza-hobby/" target="_blank"
-														rel="noopener noreferrer">
-														<img src="img/portfolio/ec_1.jpg" alt="Yahooオリジナルトップページ構築" />
-													</a>
-												</div>
-											</li>
-											<li class="lp">
-												<div class="entry arlo_tm_portfolio_animation_wrap" data-title="PCガジェットPICO様&nbsp;Strikingly短納期制作LP"
-													data-category="lp">
-													<a href="https://www.b.assisted.jp" target="_blank" rel="noopener noreferrer">
-														<img src="img/portfolio/lp_2.jpg" alt="LP制作事例2" />
-													</a>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<!-- /PORTFOLIO FILTER -->
-						</div>
-					</div>
-					<!-- /PORTFOLIO -->
-					<!-- CONTACT & FOOTER -->
-					<div class="arlo_tm_section p-add" id="contact">
-						<div class="container">
-							<div class="arlo_tm_title_holder contact">
-								<h3>お問い合わせ</h3>
-								<span>Get in touch with me</span>
-							</div>
-						</div>
-						<div class="arlo_tm_footer_contact_wrapper_all">
-							<div class="arlo_tm_contact_wrap_all">
-								<div class="container">
-									<div class="leftbox">
-										<p>お問い合わせフォーム・X(旧Twitter)のDM・Chatworkからお気軽にご相談下さい。 </p>
-										<div class="short_info_wrap">
-                      <ul>
-                        <li>
-                          <label>X(旧Twitter):</label><span><a href="https://twitter.com/inobcreate" target="_blank" rel="noopener noreferrer">@inobcreate</a></span>
-                        </li>
-                        <li>
-                          <label>Chatwork:</label><span><a href="https://www.chatwork.com/i-nob" target="_blank" rel="noopener noreferrer">i-nob</a></span>
-                        </li>
-                      </ul>
-                    </div>
-									</div>
-									<div class="rightbox">
-										<div class="arlo_tm_contact_wrap">
-											<div class="main_input_wrap">
-												<form class="formrun" action="https://form.run/api/v1/r/iyor8ja1buvd24h9sknbv4xn" method="post">
-													<div class="returnmessage"
-														data-success="Your message has been received, We will contact you soon."></div>
-													<div class="wrap">
-														<input id="name" type="text" name="お名前" placeholder="お名前">
-													</div>
-													<div class="wrap">
-														<input id="email" type="text" name="メールアドレス" data-formrun-type="email" data-formrun-required
-															placeholder="Eメールアドレス">
-														<div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
-													</div>
-													<div class="wrap">
-														<textarea id="message" name="お問い合わせ" data-formrun-required
-															placeholder="お問い合わせ内容"></textarea>
-														<div data-formrun-show-if-error="お問い合わせ">お問い合わせ内容を入力してください</div>
-													</div>
-													<div class="arlo_tm_button">
-														<!-- ボット投稿をブロックするためのタグ -->
-														<div class="_formrun_gotcha">
-															<label for="_formrun_gotcha">If you are a human, ignore this field</label>
-															<input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
-														</div>
-														<button type="submit" data-formrun-error-text="未入力の項目があります"
-															data-formrun-submitting-text="送信中...">送信する</button>
-													</div>
-												</form>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="arlo_tm_footer_wrap">
-								<div class="container">
-<<<<<<< HEAD
-									<p>&copy; 2024 i-nob create.</p>
-=======
-									<p>&copy; 2022. i-nob create All Rights are Reserved.</p>
->>>>>>> parent of 9bae966 (Googleフォーム導入)
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- /CONTACT & FOOTER -->
-				</div>
+			<div class="menu scrollable">
+				<ul class="anchor_nav">
+					<li><a href="#home">ホーム</a></li>
+					<li><a href="#about">自己紹介</a></li>
+					<li><a href="#skills">スキル紹介</a></li>
+					<li><a href="#service">サービス紹介</a></li>
+					<li><a href="#faq">よくある質問</a></li>
+					<li><a href="#contact">お問い合わせ</a></li>
+				</ul>
 			</div>
-			<!-- /RIGHTPART -->
-			<a class="arlo_tm_totop" href="#"></a>
+			<div class="copyright">
+				<p>&copy; 2024 i-nob create.</p>
+			</div>
+			<div class="arlo_tm_resizer">
+				<a href="#"><i class="icon-right-dir-2"></i></a>
+			</div>
 		</div>
+		<!-- /SIDEBAR -->
+		
+		<!-- MAINPART -->
+		<div class="arlo_tm_mainpart">
+			
+			<!-- HERO -->
+			<div class="arlo_tm_section" id="home">
+				<div class="arlo_tm_hero">
+					<div class="content">
+						<h3 class="name">i-nob&nbsp;create</h3>
+						<div class="arlo_tm_button" data-position="center">
+							<a class="anchor" href="#contact"><span>お問い合わせ</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /HERO -->
+			
+			<!-- ABOUT -->
+			<div class="arlo_tm_section" id="about">
+				<div class="arlo_tm_about">
+					<div class="container">
+						<div class="about_inner">
+							<div class="left">
+								<div class="image">
+									<img src="img/thumbs/1-1.jpg" alt="" />
+									<div class="main" data-img-url="img/about/about_me.jpg"></div>
+								</div>
+							</div>
+							<div class="right">
+								<div class="arlo_tm_main_title">
+									<span>About</span>
+									<h2>自己紹介</h2>
+								</div>
+								<div class="text">
+									<h3>【クラフトマンシップを持つエンジニアとして】</h3>
+									<p>フリーランスWebエンジニアとして活動している、i-nob&nbsp;create代表のi-nobです。<br>
+										HTML・CSS・JavaScript(TypeScript)・PHPコーディング、WordPressでのWebページ制作・カスタマイズやShopifyなど各種ECサイト構築、Astro+React+FirebaseでのWebアプリ開発などを行っております。<br>
+										Webページ制作営業職の経験も活かし、クラフトマンシップ【職人の心】を忘れずにお客様のご要望にお応えして参ります。</p>
+								</div>
+								<div class="about_short_contact_wrap">
+									<ul>
+										<li>
+											<span><label>所在地:</label>&nbsp;福島県</span>
+										</li>
+										<li>
+											<span><label>X:</label><a href="https://twitter.com/inobcreate" target="_blank"
+													rel="noopener noreferrer">&nbsp;&#64;inobcreate</a></span>
+										</li>
+										<li>
+											<label>Chatwork:</label><span><a href="https://www.chatwork.com/i-nob" target="_blank" rel="noopener noreferrer">&nbsp;i-nob</a></span>
+										</li>  
+										<li>
+											<label>LINE公式アカウント:</label><span><a href="https://lin.ee/STGTPBA" target="_blank" rel="noopener noreferrer">&nbsp;i-nob&nbsp;create</a></span>
+										</li>  
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /ABOUT -->
+			
+			<!-- SKILLS -->
+			<div class="arlo_tm_section" id="skills">
+				<div class="arlo_tm_skills_wrap">
+					<div class="container">
+						<div class="arlo_tm_main_title">
+							<span>My skills are here</span>
+							<h2>スキル紹介</h2>
+						</div>
+					</div>
+					<div class="row container">
+						<div class="inner col-md-4 col-sm-12">
+							<div class="title_skills">
+								<h3>HTML&nbsp;&&nbsp;CSS</h3>
+							</div>
+							<div class="text">
+								<p>Webページ制作実績多数</p>
+								<p>Bootstrap・TailwindCSS・SCSS対応可</p>
+							</div>
+						</div>
+						<div class="inner col-md-4 col-sm-12">
+							<div class="title_skills">
+								<h3>JavaScript/TypeScript</h3>
+							</div>
+							<div class="text">
+								<p>Webページ・ECサイト機能実装多数</p>
+								<p>jQuery・Alpine.js・React対応可</p>
+								<p>Astro+TypeScript+ReactでのWebアプリ構築経験あり</p>
+							</div>
+						</div>
+						<div class="inner col-md-4 col-sm-12">
+							<div class="title_skills">
+								<h3>PHP</h3>
+							</div>
+							<div class="text">
+								<p>WordPressカスタマイズを含むPHPページ構築を多く担当</p>
+								<p>会員ページ機能実装・フォーム送信時処理実装等</p>
+							</div>
+						</div>
+						<div class="inner col-md-4 col-sm-12">
+							<div class="title_skills">
+								<h3>CMS構築</h3>
+							</div>
+							<div class="text">
+								<p>WordPressのWebページ構築を多く担当</p>
+								<p>ECサイト構築・多言語ページ構築対応可</p>
+								<p>WordPressのほかにWixやDrupalも対応可</p>
+							</div>
+						</div>
+						<div class="inner col-md-4 col-sm-12">
+							<div class="title_skills">
+								<h3>ECサイト構築</h3>
+							</div>
+							<div class="text">
+								<p>Shopify / カラーミーショップ / BASE / MakeShop / ショップサーブ / WooCommerce等で構築可</p>
+								<p>コード編集カスタマイズ・越境対応も受付可</p>
+							</div>
+						</div>
+						<div class="inner col-md-4 col-sm-12">
+							<div class="title_skills">
+								<h3>その他</h3>
+							</div>
+								<ul class="skill-list">
+									<li>Webフレームワーク:Astro</li>
+									<li>Baas:Firebase</li>
+									<li>Git:GitHub・GitLab</li>
+									<li>スプレッドシート・GASでの業務ツール制作</li>
+								</ul>
+								<p>これらを扱う案件も受付可</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			<!-- /SKILLS -->
+			
+			<!-- SERVICES -->
+			<div class="arlo_tm_section" id="service">
+				<div class="arlo_tm_services">
+					<div class="container">
+						<div class="arlo_tm_main_title">
+							<span>Services</span>
+							<h2>サービス紹介</h2>
+						</div>
+						<div class="service_list">
+							<ul>
+								<li>
+									<div class="list_inner">
+										<div class="in">
+											<h3 class="title">Webページ制作</h3>
+											<p class="text">HTML・CSS・JavaScript・PHPでWebページ制作を致します。 LPやコーポレートページ・イベント告知ページの制作経験があります。</p>
+										</div>
+										<a class="arlo_tm_full_link" href="#"></a>
+										
+										<!-- Service Popup Start -->
+										<div class="service_hidden_details">
+											<div class="descriptions">
+												<h4>これまでの制作実績例</h4>
+												<ul>
+													<li>大手グループ系列の指導塾講師募集LP</li>
+													<li>から揚げチェーン店募集LP</li>
+													<li>北海道スキー場イベントページ(多言語)</li>
+													<li>翻訳ソリューショントップページコーディング</li>
+													<li>不用品回収サービスLP</li>
+												</ul>
+											</div>
+										</div>
+										<!-- /Service Popup End -->
+										
+									</div>
+								</li>
+								<li>
+									<div class="list_inner">
+										<div class="in">
+											<h3 class="title">WordPress構築</h3>
+											<p class="text">ECサイト化・求人サイト等の検索機能実装・多言語化・非同期処理・会員機能等の幅広いカスタマイズに対応できます。 実績多数ありますので、お気軽にご相談下さい。</p>
+										</div>
+										<a class="arlo_tm_full_link" href="#"></a>
+										
+										<!-- Service Popup Start -->
+										<div class="service_hidden_details">
+											<div class="descriptions">
+												<h4>これまでの制作実績例</h4>
+												<ul>
+													<li>手芸用品会社多言語公式サイト機能設計・構築</li>
+													<li>化粧品メーカー公式サイト機能設計・構築(店舗検索・会員機能実装)</li>
+													<li>北海道の住宅型有料老人ホーム公式サイトデザイン・構築</li>
+													<li>金融系雑誌オンラインメディアサイト構築</li>
+													<li>素材開発企業のオウンドメディア構築</li>
+													<li>求人サイト案件管理機能設計・検索機能実装(複数案件)</li>
+													<li>税理士検索サイト検索機能設計・実装</li>
+													<li>海外車用品企業の国内業者紹介ページデザイン・店舗投稿機能実装</li>
+													<li>美容外科チェーンの公式ブログ構築</li>
+													<li>高級アウター専門クリーニングサービスページデザイン・構築</li>
+													<li>物販スクールのオンライン面談予約・決済機能実装</li>
+												</ul>
+												<p>等多数あり</p>
+											</div>
+										</div>
+										<!-- /Service Popup End -->
+										
+									</div>
+								</li>
+								<li>
+									<div class="list_inner">
+										<div class="in">
+											<h3 class="title">ECサイト構築・改修</h3>
+											<p class="text">Shopifyでの多言語対応・越境対応EC構築をはじめ、WooCommerce構築やカスタマイズ、他のEC構築サービスを用いてのECサイト構築やカスタマイズを承っております。</p>
+										</div>
+										<a class="arlo_tm_full_link" href="#"></a>
+										
+										<!-- Service Popup Start -->
+										<div class="service_hidden_details">
+											<div class="descriptions">
+												<h4>これまでの制作実績例</h4>
+												<ul>
+													<li>高級腕時計販売・買取店ECサイト構築(WooCommerce)</li>
+													<li>調剤薬局ECサイト構築(WooCommerce)</li>
+													<li>懐中電灯販売ECサイト構築(WooCommerce)</li>
+													<li>物販サービス用ツールメディアページEC化(WooCommerce)</li>
+													<li>物販スクールページEC化・オンライン面談予約機能実装(WooCommerce)</li>
+													<li>教育関連サービスウェビナーサイトEC化(WooCommerce)</li>
+													<li>町工場プリントTシャツ販売ECサイト構築(Shopify・現在閉店)</li>
+													<li>ランニング用品ECサイト多言語化・越境対応(Shopify・2サイト)</li>
+													<li>ジェラート販売店ECサイト構築(MakeShop)</li>
+													<li>カテゴリーバナー40点デザイン制作・配置コーディング(カラーミーショップ)</li>
+													<li>プリザーブドフラワー販売ECサイト構築(ショップサーブ)</li>
+													<li>化粧品販売ECサイトへSNSアイコン設置・ヘッダーリファクタリング(ショップサーブ)</li>
+													<li>Yahooショッピング構築4サイト</li>
+													<li>楽天GOLD構築1サイト</li>
+													<li>STORES2サイト</li>
+												</ul>
+											</div>
+										</div>
+										<!-- /Service Popup End -->
+										
+									</div>
+								</li>
+								<li>
+									<div class="list_inner">
+										<div class="in">
+											<h3 class="title">Webアプリ開発</h3>
+											<p class="text">WordPressやWix、WebフレームワークのAstroとReact・Firebaseなどを用い、Webアプリ開発も受付できます。
+											</p>
+										</div>
+										<a class="arlo_tm_full_link" href="#"></a>
+
+										<!-- Service Popup Start -->
+										<div class="service_hidden_details">
+											<div class="descriptions">
+												<h4>これまでの制作実績例</h4>
+												<ul>
+													<li>土木関連WebアプリPM担当・会員権限機能開発(WordPress)</li>
+													<li>英語教育データ活用Webアプリ開発(Wix・現在閉鎖)</li>
+													<li>CSV管理の小規模求人アプリ開発(Astro・TypeScript・React)</li>
+												</ul>
+											</div>
+										</div>
+										<!-- /Service Popup End -->
+										
+									</div>
+								</li>
+								<li>
+									<div class="list_inner">
+										<div class="in">
+											<h3 class="title">外部サービス導入</h3>
+											<p class="text">予約システムや本人認証サービス、電子カタログなどの外部サービス導入も可能です。</p>
+										</div>
+										<a class="arlo_tm_full_link" href="#"></a>
+										
+										<!-- Service Popup Start -->
+										<div class="service_hidden_details">
+											<div class="descriptions">
+												<h4>これまでの対応実績例</h4>
+												<ul>
+													<li>手芸用品サイト内のPDF電子カタログ連携対応(EBOOK5)</li>
+													<li>予約システムサービス導入対応(Airリザーブ)</li>
+													<li>オンライン本人確認サービス導入対応(かんたんeKYC)</li>
+												</ul>
+											</div>
+										</div>
+										<!-- /Service Popup End -->
+										
+									</div>
+								</li>
+								<li>
+									<div class="list_inner">
+										<div class="in">
+											<h3 class="title">業務ツール開発</h3>
+											<p class="text">スプレッドシートとGASを用いて、業務用の管理ツール開発経験があります。事務効率化に役立つツールをご提供致します。</p>
+										</div>
+										<a class="arlo_tm_full_link" href="#"></a>
+									
+										<!-- Service Popup Start -->
+										<div class="service_hidden_details">
+											<div class="descriptions">
+												<h4>これまでの制作実績例</h4>
+												<ul>
+													<li>足場部材貸出業用部材管理ツール開発(スプレッドシート・GAS)</li>
+												</ul>
+												<p>※上記のツール導入に興味のある方は、お問い合わせ下さい。</p>
+											</div>
+										</div>
+										<!-- /Service Popup End -->
+									
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /SKILLS -->
+			
+			<!-- FAQ -->
+			<div class="arlo_tm_section" id="faq">
+				<div class="arlo_tm_faq">
+					<div class="container">
+						<div class="arlo_tm_main_title">
+							<span>FAQ</span>
+							<h2>よくある質問</h2>
+						</div>
+						<div class="accordion_wrap">
+							<div class="accordion">
+								<div class="accordion_header">
+									<span class="plus"></span>
+									<p>作業費のお支払いはどうすればよいでしょうか？</p>
+								</div>
+								<div class="accordion_content">
+									<p>当方では銀行振込・Square請求書払いがご利用頂けます。銀行振込については振込手数料はお客様のご負担となりますので、ご注意下さい。また、ご請求日の属する月の翌月末までにお支払い下さい。</p>
+								</div>
+							</div>
+							<div class="accordion">
+								<div class="accordion_header">
+									<span class="plus"></span>
+									<p>WordPressやECサイトを制作してもらった後に自分で管理・運用したいのですが、方法を教えてもらうことは可能ですか？</p>
+								</div>
+								<div class="accordion_content">
+									<p>はい、可能です。ZoomやGoogle Meetでのオンラインレクチャーに加えて、事前にお知らせ頂ければ簡易マニュアルのご準備も作業内容に含めることができますので、必要がありましたらお気軽にお知らせ下さい、</p>
+								</div>
+							</div>
+							<div class="accordion">
+								<div class="accordion_header">
+									<span class="plus"></span>
+									<p>WordPressのセキュリティに不安があります…</p>
+								</div>
+								<div class="accordion_content">
+									<p>国内外で高いシェアを誇っているためよく狙われるCMSですので、お気持ちはとても理解できます。当方ではセキュリティプラグインでのログインURL変更・ログインロック機能・画面認証の追加に加え、ユーザー名漏洩対策・WordPressバージョン漏洩の元になるファイル削除・不要プラグイン削除・送信フォームへのボット対策などを行ってセキュリティ対策に力を入れております。</p>
+								</div>
+							</div>
+							<div class="accordion">
+								<div class="accordion_header">
+									<span class="plus"></span>
+									<p>小規模の改修作業でもお願いできますか？</p>
+								</div>
+								<div class="accordion_content">
+									<p>はい、大丈夫です。構築だけでなくコーディングによる機能追加・WordPressプラグイン導入・Shopifyアプリ導入などの改修案件も承っておりますので、どうぞお気軽にご相談下さい。</p>
+								</div>
+							</div>
+							<div class="accordion">
+								<div class="accordion_header">
+									<span class="plus"></span>
+									<p>共同開発案件への参加なども対応可能ですか？</p>
+								</div>
+								<div class="accordion_content">
+									<p>はい、可能です。これまでに4件ほどの共同開発案件に携わったことがあり、1件はプロジェクトマネージャーでの立場で現在も開発に携わっております。GitHubやGitLabでのコードのバーション管理も経験があります。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /FAQ -->
+						
+			<!-- CONTACT -->
+			<div class="arlo_tm_section" id="contact">
+				<div class="arlo_tm_contact">
+					<div class="container">
+						<div class="arlo_tm_main_title">
+							<span>Contact</span>
+							<h2>お問い合わせ</h2>
+						</div>
+						<div class="inner">
+							<div class="left">
+								<ul>
+									<li>
+										<div class="list_inner">
+											<span class="icon"><i class="icon-share-1"></i></span>
+											<div class="info">
+												<span>SNS:</span>
+												<ul class="social">
+													<li><h3><a class="line_effect" href="https://twitter.com/inobcreate" target="_blank" rel="noopener noreferrer">X</a></h3></li>
+													<li><h3><a class="line_effect" href="https://www.chatwork.com/i-nob" target="_blank" rel="noopener noreferrer">Chatwork</a></h3></li>
+													<li><h3><a class="line_effect" href="https://lin.ee/STGTPBA">LINE公式アカウント</a></h3></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+								</ul>
+								<p>お問い合わせフォーム・XのDM・Chatwork・LINE公式アカウントからお気軽にご相談下さい。</p>
+							</div>
+							<div class="right">
+								<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfTXLaq1949KabojCE7yqqmpxeuNEuN_ADs_EpQo6iAYOiCQQ/viewform?embedded=true" width="100%" height="840" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /CONTACT -->
+			
+		</div>
+		<!-- /MAINPART -->
+		
+		<!-- CURSOR -->
+		<div class="mouse-cursor cursor-outer"></div>
+		<div class="mouse-cursor cursor-inner"></div>
+		<!-- /CURSOR -->
+		
+		<!-- TOTOP -->
+		<div class="progressbar">
+			<a href="#"><span class="text">To Top</span></a>
+			<span class="line"></span>
+		</div>
+		<!-- /TOTOP -->
+		
 	</div>
 	<!-- / WRAPPER ALL -->
-	<!-- SCRIPTS -->
-	<script src="js/jquery.js"></script>
-	<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
-	<script src="js/plugins.js"></script>
-	<script src="js/init.js"></script>
-	<!-- /SCRIPTS -->
-</body>
+	
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
+<script src="js/plugins.js"></script>
+<script src="js/init.js"></script>
+<!-- /SCRIPTS -->
 
+</body>
 </html>

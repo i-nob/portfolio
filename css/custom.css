@@ -283,8 +283,9 @@ body::-webkit-scrollbar-thumb {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: auto;
-	align-items: center;
+	align-items: flex-start;
 	gap: 16px;
+	padding-top: 24px;
 }
 
 .arlo_tm_contact .left {

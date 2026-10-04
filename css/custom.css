@@ -69,6 +69,10 @@ body::-webkit-scrollbar-thumb {
 	background-color: var(--white-color);
 }
 
+.arlo_tm_main_title {
+	float: none;
+}
+
 .arlo_tm_main_title span{
 	color: var(--navy-color);
 }
@@ -101,6 +105,10 @@ body::-webkit-scrollbar-thumb {
 
 .arlo_tm_services .list_inner:before{
 	background-color: var(--navy-color);
+}
+
+.arlo_tm_services .service_list {
+	margin-top: 40px;
 }
 
 .arlo_tm_services .service_list .icon{
@@ -301,6 +309,57 @@ body::-webkit-scrollbar-thumb {
 	padding-left: 0;
 }
 
+.icon-right-dir-2:before {
+	color: var(--navy-color);
+}
+
+.accordion_wrap {
+	margin-top: 40px;
+}
+
+.arlo_tm_rc {
+	padding-top: 140px;
+}
+
+.arlo_tm_rc .rc-list {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	width: 100%;
+	margin-top: 40px;
+	list-style: none;
+}
+
+.arlo_tm_rc .rc-list .rc-item {
+	width: 100%;
+	box-shadow: 0px 0px 16px rgba(0,0,0,.12);
+	background: #fff;
+	transition: .3s;
+}
+
+.arlo_tm_rc .rc-list .rc-item .rc-link {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	max-width: 100%;
+	padding: 16px;
+}
+
+.rc-detail {
+	color: var(--navy-color);
+}
+
+@media (hover:hover) {
+	.arlo_tm_rc .rc-list .rc-item:hover {
+		opacity: .7;
+	}
+}
+
+@media (hover:none) {
+	.arlo_tm_rc .rc-list .rc-item:active {
+		opacity: .7;
+	}
+}
 
 @media screen and (max-width: 1600px) {
 	.arlo_tm_about .left{padding-right: 0;}

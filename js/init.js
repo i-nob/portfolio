@@ -85,7 +85,6 @@ function arlo_tm_trigger_menu(){
 	mobileMenuList.on('click',function(){
 		jQuery('.trigger .hamburger').removeClass('is-active');
 		mobileMenu.slideUp();
-		return false;
 	});
 }
 

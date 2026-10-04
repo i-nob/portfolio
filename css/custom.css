@@ -87,6 +87,10 @@ body::-webkit-scrollbar-thumb {
 	color: var(--navy-color);
 }
 
+.arlo_tm_about {
+	padding: 150px 0 0;
+}
+
 .arlo_tm_about .about_inner{
 	display: grid;
 	grid-template-columns: 1fr 2fr;
@@ -244,6 +248,7 @@ body::-webkit-scrollbar-thumb {
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
+	padding-top: 120px;
 }
 
 .skill-list {
@@ -296,7 +301,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .arlo_tm_services {
-	padding: 140px 0 0;
+	padding: 120px 0 0;
 }
 
 .arlo_tm_contact .inner {
@@ -331,8 +336,12 @@ body::-webkit-scrollbar-thumb {
 	margin-top: 40px;
 }
 
+.arlo_tm_faq {
+	padding: 120px 0 0;
+}
+
 .arlo_tm_rc {
-	padding-top: 140px;
+	padding-top: 120px;
 }
 
 .arlo_tm_rc .rc-list {
@@ -398,19 +407,23 @@ body::-webkit-scrollbar-thumb {
 	}
 
 	.arlo_tm_about.arlo_tm_about {
-		padding: 80px 0;
+		padding: 80px 0 0;
+	}
+
+	.arlo_tm_skills_wrap {
+		padding-top: 80px;
 	}
 
 	.arlo_tm_rc {
-		padding: 80px;
+		padding-top: 80px;
 	}
 
 	.arlo_tm_faq {
-		padding: 0 0 80px;
+		padding: 80px 0 0;
 	}
 
 	.arlo_tm_contact {
-		padding: 80px 0;
+		padding: 80px 0 0;
 	}
 
 	.arlo_tm_contact .inner {
